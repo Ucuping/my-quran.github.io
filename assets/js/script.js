@@ -175,7 +175,7 @@ function updateTafsirSurat(t) {
 }
 
 function suratCards(s) {
-    return `<div class="col-md-3 mt-4">
+    return `<div class="col-md-3 mt-4 lazy" loading="lazy">
                 <div class="card shadow-sm">
                     <div class="card-body">
                         <h5 class="card-title">${s.nama}</h5>
