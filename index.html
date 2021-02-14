@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+
+    <title>E-Qur'An</title>
+  </head>
+  <body>
+    <div class="container">
+        <h1 class="text-center bg-success text-white">E-Qur'An</h1>
+        <div class="row mt-4">
+            <div class="col-md-8 mx-auto">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control shadow-sm input-keyword" placeholder="Search nomor surat">
+                    <div class="input-group-append">
+                        <button class="btn btn-success search-button" type="submit">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-md-6 mx-auto">
+                <div class="surat-error" role="alert">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3 surat-container">
+            
+        </div>
+
+        <!-- Modal Detail -->
+        <div class="modal fade" id="modal-surat" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title surat-modal-title"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body modal-surat-detail">
+                        <div class="row">
+                            <div class="col-md mx-auto">
+                                <div class="show-surat-error" role="alert">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Tafsir -->
+        <div class="modal fade" id="modal-tafsir" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title tafsir-modal-title"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body modal-tafsir-detail">
+                        <div class="row">
+                            <div class="col-md mx-auto">
+                                <div class="show-tafsir-error" role="alert">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Javascript resource -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+  </body>
+</html>
