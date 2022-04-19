@@ -1,3 +1,3 @@
 # E-Qur'An with Vanila JavaScript
-# https://ucuping.github.io
+# https://my-quran.github.io
 
